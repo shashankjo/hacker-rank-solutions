@@ -5,11 +5,11 @@ require 'stringio'
 
 # Complete the birthdayCakeCandles function below.
 def birthdayCakeCandles(ar)
- initial_size=ar.size
- max=ar.max
- ar.delete_if {|n| n== max}
- final_size= ar.size
- candles=initial_size-final_size
+ initial_size = ar.size
+ max = ar.max
+ ar.delete_if {|n| n == max}
+ final_size = ar.size
+ candles = initial_size - final_size
 end
 
 fptr = File.open(ENV['OUTPUT_PATH'], 'w')

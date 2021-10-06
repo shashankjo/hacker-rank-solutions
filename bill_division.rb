@@ -5,13 +5,13 @@ require 'stringio'
 
 # Complete the bonAppetit function below.
 def bonAppetit(bill, k, b)
-sum=bill.inject(:+)
-togther_sum= sum - bill[k]
-each_share = togther_sum / 2
+  sum = bill.inject(:+)
+  together_sum = sum - bill[k]
+  each_share = together_sum / 2
 
-if each_share == b
-  puts "Bon Appetit"
-  else puts b - each_share
+  if each_share == b
+    puts "Bon Appetit"
+    else puts b - each_share
   end
 end
 
