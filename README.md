@@ -8,4 +8,4 @@ My HackerRank profile : https://www.hackerrank.com/kumarshashank_jo
 
 Please refer to this repository if you need a solution to any Hackerrank problem.
 
-My LinkedIn profile : linkedin.com/in/shashankjo
+My LinkedIn profile : [linkedin.com/in/shashankjo](https://www.linkedin.com/in/shashankjo/)
